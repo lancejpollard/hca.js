@@ -89,12 +89,12 @@ list of models of hyperbolic geometry.
 - Poincaré disk model
 - Poincaré half-plane model
 - Upper half plane model
-- Minkowski hyperboloid model
-- Klein-Beltrami disk model
-- Gans disk model
+- [Minkowski hyperboloid model](https://en.wikipedia.org/wiki/Hyperboloid_model)
+- [Klein-Beltrami disk model](https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model)
+- [Gans disk model](https://en.wikipedia.org/wiki/Hyperbolic_geometry#The_Gans_model)
 - Inverted Poincaré disk model
 - Hemisphere model
-- Band model
+- [Band model](https://en.wikipedia.org/wiki/Band_model)
 - Spiral model
 - Polygonal model
 - Joukowsky model
@@ -110,16 +110,3 @@ list of models of hyperbolic geometry.
 - [HyperRogue dev notes](http://www.roguetemple.com/z/hyper/dev.php)
 - [HyperRogue docs](https://zenorogue.github.io/hyperrogue-doc/)
   - [hyperpoint.cpp](https://github.com/zenorogue/hyperrogue/blob/master/hyperpoint.cpp)
-
-## Dev Notes
-
-Convert C++ to C:
-
-```bash
-clang -c file.cpp -o file.bc -emit-llvm
-clang -march=c  file.bc -o file.c
-```
-
-```bash
-clang -cc1 -undef -fsyntax-only -ast-dump=json hyperpoint.cpp > hyperpoint.json
-```
