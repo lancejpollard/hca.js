@@ -70,10 +70,35 @@ for tilings { 3, q }, the case of equilateral triangles.
 [volume 1 chapter 4](https://books.google.com/books?id=wGjX1PpFqjAC&lpg=PP1&pg=PA151#v=onepage&q&f=false).
 They seem to be a special case of the pentagrid and heptagrid tilings.
 
+## How Rendering Works
+
+The Poincaré disk model (and other general perspective projections) is
+obtained from the hyperboloid model by projecting from the point ( 0, 0,
+-1 ).
+
 ## Poincaré Disk Model
 
 The visualization of the tessellations uses the Poincaré disc model,
 which is described in volume 1 section 1.3.
+
+## Models of Hyperbolic Geometry
+
+[Here](http://roguetemple.com/z/hyper/models.php) is a somewhat complete
+list of models of hyperbolic geometry.
+
+- Poincaré disk model
+- Poincaré half-plane model
+- Upper half plane model
+- Minkowski hyperboloid model
+- Klein-Beltrami disk model
+- Gans disk model
+- Inverted Poincaré disk model
+- Hemisphere model
+- Band model
+- Spiral model
+- Polygonal model
+- Joukowsky model
+- Poincaré Ball model
 
 ## General Notes
 
@@ -81,3 +106,20 @@ which is described in volume 1 section 1.3.
 - [Euclidean tilings by convex regular polygons](https://en.wikipedia.org/wiki/Euclidean_tilings_by_convex_regular_polygons)
 - [Schwarz triangle](https://en.wikipedia.org/wiki/Schwarz_triangle)
 - [List of uniform polyhedra by Schwarz triangle](https://en.wikipedia.org/wiki/List_of_uniform_polyhedra_by_Schwarz_triangle)
+- http://people.hws.edu/mitchell/tilings/Part3.html
+- [HyperRogue dev notes](http://www.roguetemple.com/z/hyper/dev.php)
+- [HyperRogue docs](https://zenorogue.github.io/hyperrogue-doc/)
+  - [hyperpoint.cpp](https://github.com/zenorogue/hyperrogue/blob/master/hyperpoint.cpp)
+
+## Dev Notes
+
+Convert C++ to C:
+
+```bash
+clang -c file.cpp -o file.bc -emit-llvm
+clang -march=c  file.bc -o file.c
+```
+
+```bash
+clang -cc1 -undef -fsyntax-only -ast-dump=json hyperpoint.cpp > hyperpoint.json
+```
