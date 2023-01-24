@@ -113,3 +113,6 @@ list of models of hyperbolic geometry.
 - [Illuminating hyperbolic geometry](https://www.youtube.com/watch?v=eGEQ_UuQtYs)
 - https://github.com/HackerPoet/HyperEngine
 - [The κ-Stereographic Model for Hyperbolic, Spherical and Euclidean Geometry](https://andbloch.github.io/K-Stereographic-Model)
+- https://geoopt.readthedocs.io/en/latest/extended/stereographic.html
+- [Tensorflow Docs](https://js.tensorflow.org/api/latest)
+  - https://www.tensorflow.org/guide/tensor
