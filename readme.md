@@ -112,3 +112,4 @@ list of models of hyperbolic geometry.
   - [hyperpoint.cpp](https://github.com/zenorogue/hyperrogue/blob/master/hyperpoint.cpp)
 - [Illuminating hyperbolic geometry](https://www.youtube.com/watch?v=eGEQ_UuQtYs)
 - https://github.com/HackerPoet/HyperEngine
+- [The κ-Stereographic Model for Hyperbolic, Spherical and Euclidean Geometry](https://andbloch.github.io/K-Stereographic-Model)
