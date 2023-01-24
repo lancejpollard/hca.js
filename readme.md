@@ -110,3 +110,5 @@ list of models of hyperbolic geometry.
 - [HyperRogue dev notes](http://www.roguetemple.com/z/hyper/dev.php)
 - [HyperRogue docs](https://zenorogue.github.io/hyperrogue-doc/)
   - [hyperpoint.cpp](https://github.com/zenorogue/hyperrogue/blob/master/hyperpoint.cpp)
+- [Illuminating hyperbolic geometry](https://www.youtube.com/watch?v=eGEQ_UuQtYs)
+- https://github.com/HackerPoet/HyperEngine
