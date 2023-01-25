@@ -1,15 +1,3 @@
-# hca.js
-
-Hyperbolic cellular automata in the 2D plane in JavaScript. There is
-also the sister library
-[hyperbolic tessellations in the 2D plane](https://github.com/lancejpollard/ht.js),
-which just renders static 2d hyperbolic tessellations. As opposed to
-this hca.js library, which aims to implement much of what is found in
-[Maurice Margenstern](http://www.lita.univ-lorraine.fr/~margens/)'s
-books,
-[Cellular Automata in Hyperbolic Spaces](https://www.amazon.com/Cellular-Automata-Hyperbolic-Spaces-Implementations/dp/1933153067)
-volumes 1 and 2.
-
 <br/>
 <br/>
 <p align='center'>
@@ -23,6 +11,18 @@ volumes 1 and 2.
   <img src='https://github.com/lancejpollard/hca.js/blob/make/9-3.png?raw=true' height='200'>
 </p>
 <br/>
+
+# hca.js
+
+Hyperbolic cellular automata in the 2D plane in JavaScript. There is
+also the sister library
+[hyperbolic tessellations in the 2D plane](https://github.com/lancejpollard/ht.js),
+which just renders static 2d hyperbolic tessellations. As opposed to
+this hca.js library, which aims to implement much of what is found in
+[Maurice Margenstern](http://www.lita.univ-lorraine.fr/~margens/)'s
+books,
+[Cellular Automata in Hyperbolic Spaces](https://www.amazon.com/Cellular-Automata-Hyperbolic-Spaces-Implementations/dp/1933153067)
+volumes 1 and 2.
 
 ## Overview
 
