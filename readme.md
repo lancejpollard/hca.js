@@ -13,7 +13,14 @@ volumes 1 and 2.
 <br/>
 <br/>
 <p align='center'>
-  <img src='https://github.com/lancejpollard/hca.js/blob/make/7.png?raw=true' height='500'>
+  <img src='https://github.com/lancejpollard/hca.js/blob/make/7-3.gif?raw=true' height='500'>
+</p>
+<br/>
+<br/>
+<p align='center'>
+  <img src='https://github.com/lancejpollard/hca.js/blob/make/3-7.png?raw=true' height='200'>
+  <img src='https://github.com/lancejpollard/hca.js/blob/make/5-4.png?raw=true' height='200'>
+  <img src='https://github.com/lancejpollard/hca.js/blob/make/9-3.png?raw=true' height='200'>
 </p>
 <br/>
 
@@ -116,3 +123,23 @@ list of models of hyperbolic geometry.
 - https://geoopt.readthedocs.io/en/latest/extended/stereographic.html
 - [Tensorflow Docs](https://js.tensorflow.org/api/latest)
   - https://www.tensorflow.org/guide/tensor
+- [Cellular Automata in Hyperbolic Plane simulator](https://dmishin.github.io/hyperbolic-ca-simulator/help.html)
+
+## Knuth-Bendix Algorithm
+
+> The knuth-bendix algorithm is a way of finding a set of rewrite rules
+> for transforming words into a canonical form, where you can check if
+> they're equal by just seeing if the words are the same. The reason
+> this is relevant here is that the transformations of the hyperbolic
+> plane (or whatever space) that leave the tiling fixed forms a group.
+> If you imagine a certain tile being at the origin, these
+> transformations will move different tiles onto the origin -- if two
+> transformations are the same, they put the same tile onto the origin
+> (potentially with a different rotation), so you can use that
+> transformation to represent that tile (plus its rotation) and then if
+> you ignore the rotation (e.g. by picking the smallest group element by
+> some fixed ordering) then it really is a representation of the tile
+> that you can compare for equality
+
+From @panic on the
+[HyperRogue discord](https://discord.com/channels/540092734300618753/694122059097178172).
